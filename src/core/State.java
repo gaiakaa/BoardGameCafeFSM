@@ -1,6 +1,7 @@
+package core;
 public interface State<C> {
     C getCharacter();
     void enter();
     void execute();
-    void exit();
+    void leave();
 }

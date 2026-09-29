@@ -1,3 +1,4 @@
+package core;
 public abstract class AbstractState<C> implements State<C> {
     protected C character;
 
