@@ -12,7 +12,7 @@ public class DescansandoBarista extends AbstractState<Barista> {
 
     @Override
     public void enter() {
-        System.out.println("O Barista está descansando.");
+        mensagemSaida = "O Barista está descansando.";
     }
 
     @Override
@@ -31,7 +31,7 @@ public class DescansandoBarista extends AbstractState<Barista> {
     @Override
     public void leave() {
         if (!mensagemSaida.isEmpty()) {
-            System.out.println("BARISTA: " + mensagemSaida);
+            System.out.println(mensagemSaida);
         }
     }
 }

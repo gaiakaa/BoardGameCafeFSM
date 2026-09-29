@@ -31,7 +31,7 @@ public class DescansandoMonitor extends AbstractState<Monitor>  {
     @Override
     public void leave() {
         if (!mensagemSaida.isEmpty()) {
-            System.out.println("MONITOR: " + mensagemSaida);
+            System.out.println(mensagemSaida);
         }
     }
 }

@@ -18,12 +18,12 @@ public class AprendendoRegras extends AbstractState<Cliente> {
     @Override
     public void execute() {
         character.setEnergia(character.getEnergia() - 3);
-        character.setProgresso(character.getProgresso() - 5);
+        character.setProgresso(character.getProgresso() - 4);
 
-        if (character.getProgresso() <= 0) {
+        if (character.getEnergia() <= 0) {
             mensagemSaida = "O cliente terminou de aprender as regras mas vai pedir um café.";
             character.getState(new EsperandoCafe(character));
-        } else {
+        } else if (character.getProgresso() <= 0) {
             mensagemSaida = "O cliente terminou de aprender as regras e vai continuar jogando.";
             character.getState(new Jogando(character));
         }
@@ -33,7 +33,7 @@ public class AprendendoRegras extends AbstractState<Cliente> {
     public void leave() {
         Main.ajudaConcluida = true;
         if (!mensagemSaida.isEmpty()) {
-            System.out.println("CLIENTE: " + mensagemSaida);
+            System.out.println(mensagemSaida);
         }
     }
     

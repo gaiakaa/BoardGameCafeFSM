@@ -34,10 +34,10 @@ public class Monitor implements Character {
     
     @Override
     public void update() {
-        printState("Monitor");
         if (this.estadoAtual != null) {
             this.estadoAtual.execute();
         }
+        printState("Monitor");
     }
 
     @Override

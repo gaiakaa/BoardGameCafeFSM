@@ -11,7 +11,7 @@ public class PreparandoCafe extends AbstractState<Barista> {
 
     @Override 
     public void enter() {
-       System.out.println("Barista entrou no estado PreparandoCafe.");
+       mensagemSaida = "Barista entrou no estado PreparandoCafe.";
     }
     
     @Override
@@ -33,7 +33,7 @@ public class PreparandoCafe extends AbstractState<Barista> {
     @Override 
     public void leave() {
         if (!mensagemSaida.isEmpty()) {
-            System.out.println("BARISTA: " + mensagemSaida);
+            System.out.println(mensagemSaida);
         }
     }
 }

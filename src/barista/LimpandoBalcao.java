@@ -12,7 +12,7 @@ public class LimpandoBalcao extends AbstractState<Barista> {
 
     @Override 
     public void enter() {
-       System.out.println("Barista entrou no estado LimpandoBalcao.");
+       mensagemSaida = "Barista entrou no estado LimpandoBalcao.";
     }
     
     @Override
@@ -31,7 +31,7 @@ public class LimpandoBalcao extends AbstractState<Barista> {
     @Override 
     public void leave() {
         if (!mensagemSaida.isEmpty()) {
-            System.out.println("BARISTA: " + mensagemSaida);
+            System.out.println(mensagemSaida);
         }
     }
 
