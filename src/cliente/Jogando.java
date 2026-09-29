@@ -21,10 +21,10 @@ public class Jogando extends AbstractState<Cliente> {
 
         if (character.getEnergia() <= 0) {
             mensagemSaida = "O cliente está exausto e precisa de um café.";
-            character.getState(new EsperandoCafe(character));
+            character.setState(new EsperandoCafe(character));
         } else if (character.getProgresso() >= 10) {
             mensagemSaida = "O cliente terminou de jogar pegar outro jogo.";
-            character.getState(new EscolhendoJogo(character));
+            character.setState(new EscolhendoJogo(character));
         }
     }
 

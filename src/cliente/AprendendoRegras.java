@@ -22,10 +22,10 @@ public class AprendendoRegras extends AbstractState<Cliente> {
 
         if (character.getEnergia() <= 0) {
             mensagemSaida = "O cliente terminou de aprender as regras mas vai pedir um café.";
-            character.getState(new EsperandoCafe(character));
+            character.setState(new EsperandoCafe(character));
         } else if (character.getProgresso() <= 0) {
             mensagemSaida = "O cliente terminou de aprender as regras e vai continuar jogando.";
-            character.getState(new Jogando(character));
+            character.setState(new Jogando(character));
         }
     }
 

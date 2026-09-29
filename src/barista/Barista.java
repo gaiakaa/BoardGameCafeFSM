@@ -23,7 +23,7 @@ public class Barista implements Character{
     }
 
     @Override 
-    public void getState(State<?> state) {
+    public void setState(State<?> state) {
         if (this.estadoAtual != null) {
             this.estadoAtual.leave();
         }
@@ -35,10 +35,10 @@ public class Barista implements Character{
 
     @Override 
     public void update() {
+        printState("Barista");
         if (this.estadoAtual != null) {
             this.estadoAtual.execute();
         }
-        printState("Barista");
     }
 
     @Override 

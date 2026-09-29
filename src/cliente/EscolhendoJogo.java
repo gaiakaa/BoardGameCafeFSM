@@ -20,7 +20,7 @@ public class EscolhendoJogo extends AbstractState<Cliente> {
     public void execute() {
         if (Main.ensinandoRegras) {
             mensagemSaida = "O monitor chegoou para ensinar as regras do jogo.";
-            character.getState(new AprendendoRegras(character));
+            character.setState(new AprendendoRegras(character));
         } 
     }
 

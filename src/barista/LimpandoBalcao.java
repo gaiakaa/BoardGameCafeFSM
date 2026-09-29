@@ -21,10 +21,10 @@ public class LimpandoBalcao extends AbstractState<Barista> {
 
         if(Main.pedidoCafe) {
             mensagemSaida = "Barista está preparando o café.";
-            character.getState(new PreparandoCafe(character));
+            character.setState(new PreparandoCafe(character));
         } else if (character.getEnergia() <= 0) {
             mensagemSaida = "Barista está cansado e vai descansar.";
-            character.getState(new DescansandoBarista(character));
+            character.setState(new DescansandoBarista(character));
         }
     }
 

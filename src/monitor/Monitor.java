@@ -22,7 +22,7 @@ public class Monitor implements Character {
     }
 
     @Override
-    public void getState(State<?> state) {
+    public void setState(State<?> state) {
         if (this.estadoAtual != null) {
             this.estadoAtual.leave();
         }

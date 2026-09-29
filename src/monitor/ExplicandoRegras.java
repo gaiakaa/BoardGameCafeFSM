@@ -27,10 +27,10 @@ public class ExplicandoRegras extends AbstractState<Monitor>  {
 
             if (character.getEnergia() > 3) {
                 mensagemSaida = "O monitor terminou de explicar as regras e vai organizar a prateleira.";
-                character.getState(new OrganizandoPrateleira(character));
+                character.setState(new OrganizandoPrateleira(character));
             } else {
                 mensagemSaida = "O monitor está cansado e precisa descansar.";
-                character.getState(new DescansandoMonitor(character));
+                character.setState(new DescansandoMonitor(character));
             }
            
         }

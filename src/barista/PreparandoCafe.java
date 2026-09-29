@@ -23,10 +23,10 @@ public class PreparandoCafe extends AbstractState<Barista> {
 
         if(character.getEnergia() > 3) {
             mensagemSaida = "Barista terminou de preparar o café.";
-            character.getState(new LimpandoBalcao(character));
+            character.setState(new LimpandoBalcao(character));
         } else {
             mensagemSaida = "Barista está cansado e vai descansar.";
-            character.getState(new DescansandoBarista(character));
+            character.setState(new DescansandoBarista(character));
         }
     }
 

@@ -23,10 +23,10 @@ public class BebendoCafe extends AbstractState<Cliente> {
 
         if (character.getProgresso() < 10) {
             mensagemSaida = "O cliente terminou de beber o café e vai continuar jogando.";
-            character.getState(new Jogando(character));
+            character.setState(new Jogando(character));
         } else {
             mensagemSaida = "O cliente terminou de beber o café e vai escolher outro jogo.";
-            character.getState(new EscolhendoJogo(character));
+            character.setState(new EscolhendoJogo(character));
         }
     }
 

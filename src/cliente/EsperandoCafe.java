@@ -21,7 +21,7 @@ public class EsperandoCafe extends AbstractState<Cliente> {
         
         if (Main.cafePronto) {
             mensagemSaida = "O cafe do cliente está pronto.";
-            character.getState(new BebendoCafe(character));
+            character.setState(new BebendoCafe(character));
         }
     }
 

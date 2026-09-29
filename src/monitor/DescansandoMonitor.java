@@ -21,10 +21,10 @@ public class DescansandoMonitor extends AbstractState<Monitor>  {
 
         if (Main.pedidoAjuda && character.getEnergia() >= 6) {
             mensagemSaida = "O monitor parou de descansar para explicar as regras do jogo.";
-            character.getState(new ExplicandoRegras(character));
+            character.setState(new ExplicandoRegras(character));
         } else if (character.getEnergia() >= 10) {
             mensagemSaida = "O monitor está descansado e vai organizar a prateleira.";
-            character.getState(new OrganizandoPrateleira(character));
+            character.setState(new OrganizandoPrateleira(character));
         }
     }
 

@@ -20,10 +20,10 @@ public class OrganizandoPrateleira extends AbstractState<Monitor> {
         character.setEnergia(character.getEnergia() - 1);
         if (Main.pedidoAjuda) {
             mensagemSaida = "O monitor está sendo chamado por um cliente.";
-            character.getState(new ExplicandoRegras(character));
+            character.setState(new ExplicandoRegras(character));
         } else if (character.getEnergia() <= 0) {
             mensagemSaida = "O monitor está cansado e precisa descansar.";
-            character.getState(new DescansandoMonitor(character));
+            character.setState(new DescansandoMonitor(character));
         }
     }
 
