@@ -1,0 +1,1026 @@
+Segue abaixo os logs esperados, pois não deu pra colocar vários no documento
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 8, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 3, Estado: ExplicandoRegras
+-----------------------------------
+O cliente terminou de aprender as regras mas vai pedir um café.
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: LimpandoBalcao
+Barista está preparando o café.
+-----------------------------------
+O monitor está cansado e precisa descansar.
+Monitor - Energia: 0, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 0, Progresso: 2, Estado: EsperandoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 6, Estado: PreparandoCafe
+Barista está cansado e vai descansar.
+-----------------------------------
+Monitor - Energia: 2, Estado: DescansandoMonitor
+-----------------------------------
+O cafe do cliente está pronto.
+Cliente - Energia: 0, Progresso: 2, Estado: BebendoCafe
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 3, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 4, Estado: DescansandoMonitor
+-----------------------------------
+O cliente terminou de beber o café e vai continuar jogando.
+Cliente - Energia: 10, Progresso: 2, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 5, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 6, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 8, Progresso: 5, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 7, Estado: DescansandoBarista
+-----------------------------------
+Monitor - Energia: 8, Estado: DescansandoMonitor
+-----------------------------------
+Cliente - Energia: 6, Progresso: 8, Estado: Jogando
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: DescansandoBarista
+Barista está descansado e vai limpar o balcão.
+-----------------------------------
+O monitor está descansado e vai organizar a prateleira.
+Monitor - Energia: 10, Estado: OrganizandoPrateleira
+-----------------------------------
+O cliente terminou de jogar pegar outro jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: EscolhendoJogo
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 10, Estado: LimpandoBalcao
+-----------------------------------
+O monitor está sendo chamado por um cliente.
+Monitor - Energia: 9, Estado: ExplicandoRegras
+-----------------------------------
+O monitor chegoou para ensinar as regras do jogo.
+Cliente - Energia: 4, Progresso: 10, Estado: AprendendoRegras
+-----------------------------------
+
+================= Nova Rodada =================
+Barista - Energia: 9, Estado: LimpandoBalcao
+-----------------------------------
+Monitor - Energia: 6, Estado: ExplicandoRegras
+-----------------------------------
+Cliente - Energia: 1, Progresso: 6, Estado: AprendendoRegras
+-----------------------------------

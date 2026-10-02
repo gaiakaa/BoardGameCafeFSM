@@ -31,6 +31,7 @@ public class Cliente implements Character {
         this.progresso = Math.max(0, Math.min(10, progresso));
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public void setState(State<?> state) {
         if (this.estadoAtual != null) {

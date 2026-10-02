@@ -21,6 +21,7 @@ public class Monitor implements Character {
         this.energia = Math.max(0, Math.min(10, energia));
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public void setState(State<?> state) {
         if (this.estadoAtual != null) {
